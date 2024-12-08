@@ -1,1 +1,81 @@
 /* Your styles here */
+body {
+    margin:0%;
+    background-color: #e9edee;
+    text-align: center;
+}
+#logo {
+    background-color: #222f3f;
+    margin:0%;
+}
+#header {
+    background-color: #364759;
+    padding: 5px;
+}
+header p {
+    display: inline;
+    color: white;
+    padding-left: 15px;
+    font-size: small;
+}
+#top {
+    background-color: #f56600;
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+}
+#primobanner {
+    text-align: center;
+    color: white;
+    background-image: url(assets/images/bg-images.png);
+    padding: 20px;
+}
+#secondobanner {
+    background-color: white;
+}
+
+#secondobanner img {
+    justify-content: space-evenly;
+    box-shadow: 4px 5px 20px gray;
+    max-width: 20%;
+    min-height: 20%;
+    border-radius: 5%;
+}
+#secondobanner p {
+    display: inline-flex;
+    text-align: left;
+}
+#terzobanner img {
+    width: 100%;
+    margin: 20px;
+}
+#terzobanner p {
+    display: inline;
+    padding-right: 20px;
+}
+#quartobanner img {
+    width: 100%;
+    margin: 20px;
+}
+#quartobanner p {
+    display: inline;
+    padding-right: 20px;
+}
+#blu {
+    color: rgb(7, 122, 122);
+    font-size: small;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#vaisu {
+    color: white;
+    background-color: #364759;
+    
+    font-size: 15px;
+}
+#footer {
+    background-color: #222f3f;
+    padding: 50px;
+}
+
